@@ -5,6 +5,8 @@ import Features from '../sections/Features'
 import Products from '../cards/Products'
 import Sustain from '../sections/Sustain'
 import Contribution from '../sections/Contribution'
+import Customers from '../sections/Customers'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -33,6 +35,8 @@ export default function Home() {
       </div>
       <Sustain />
       <Contribution />
+      <Customers />
+      <Footer />
 </div>    
   )
 }
