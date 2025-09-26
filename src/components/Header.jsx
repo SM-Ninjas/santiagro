@@ -5,8 +5,7 @@ import Home from "../home/Home";
 export default function Header() {
   return (
     <Navbar
-    shouldHideOnScroll
-      className="bg-background/90 backdrop-blur-md border-b border-border sticky top-0 z-10">
+      className="px-3 py-1 bg-white/70 backdrop-blur-md border-b border-border">
       <NavbarBrand>
         <p className="font-bold text-inherit">Santi Agro Farm</p>
       </NavbarBrand>

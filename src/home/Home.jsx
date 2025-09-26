@@ -29,9 +29,9 @@ export default function Home() {
         <div className=''>
         <h2 className='text-4xl font-bold text-center mt-8'>Our Products</h2>
       </div>
-      <div className='flex flex-col  max-w-[1240px] mx-auto my-8 p-4 bg-amber-100 rounded-lg shadow-md'>
+      <div className='flex flex-col  max-w-[1240px] mx-auto my-8 p-4 rounded-lg shadow-md'>
         <Products />
-        <Button className="mt-4 w-10" color="warning" variant="shadow">Learn More</Button>
+        <Button className="mt-4 w-10" color="default" variant="shadow">Learn More</Button>
       </div>
       <Sustain />
       <Contribution />
